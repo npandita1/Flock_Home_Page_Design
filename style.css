@@ -1,0 +1,341 @@
+body {
+    background-color: #f4f5f7;
+    margin: 0px;
+}
+
+div.navbar {
+    position: relative;
+    padding: 30px 0px;
+    height: 40px;
+}
+
+#img {
+    padding-left: 30px;
+    width: 90px;
+    height: 100%;
+}
+
+#question {
+    font-family: Inter-Regular,sans-serif;
+    position: absolute;
+    top: 42px;
+    right: 155px;
+    font-size: 15.5px;
+    color: #212029 
+}
+
+#two {
+    background-color: #fdbd00;
+    height: 250px;
+    width: 250px;
+}
+
+a#one:link {
+    margin: 5px;
+    font-family: Inter-SemiBold,sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #fdbd00;
+    font-size: 16px;
+    padding: 6px 14px; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a#one:visited {
+    font-family: Inter-SemiBold,sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #fdbd00;
+    font-size: 16px;
+    padding: 6px 14px; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a#one:hover {
+    font-family: Inter-SemiBold,sans-serif;
+    position: absolute;
+    top: 31px;
+    right: 30px;
+    background-color: rgb(253,189,0,0.8);
+    font-size: 16px;
+    padding: 4px 12px; 
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid orange;
+}
+
+a#one:active {
+    font-family: Inter-SemiBold,sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #fdbd00;
+    font-size: 16px;
+    padding: 6px 14px; 
+    text-decoration: underline;
+    color: #101010;
+}
+
+.container {
+    padding: 0px 20px;
+    margin: 0px 112.5px;
+}
+
+.form {
+    margin: auto;
+    width: 440px;
+    height: 486.47px;
+}
+
+.heading {
+    font-family: Inter-Bold,sans-serif;
+    font-size: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#la1, #la2 {
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+::placeholder {
+    color: #a4a4a4;
+}
+
+input[type=text] {
+    font-size: 1em;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 1px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+input[type=password] {
+    font-size: 1em;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border-radius: 1px;
+    height: 48px;
+    margin-bottom: 5px;
+}
+
+#button0:link {
+    margin: 8px 0px 24px;
+    font-size: 12px;
+    font-family: Inter-Regular,sans-serif;
+    color: #848484; 
+}
+
+#button0:visited {
+    margin: 8px 0px 24px;
+    font-size: 12px;
+    font-family: Inter-Regular,sans-serif;
+    color: #848484; 
+}
+
+#button0:hover {
+    margin: 8px 0px 24px;
+    font-size: 12px;
+    font-family: Inter-Regular,sans-serif;
+    color: #007bff; 
+}
+
+#button0:active {
+    margin: 8px 0px 24px;
+    font-size: 12px;
+    font-family: Inter-Regular,sans-serif;
+    color: #848484; 
+}
+
+.button {
+    background-color: #1bb165;
+    font-size: 1.0625rem;
+    padding: 0.8125rem 0;
+    width: 100%;
+    border-style: none;
+    padding: 13px 0px;
+    color: white;
+    height: 55px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1bdc65;
+    font-size: 1.0625rem;
+    padding: 0.8125rem 0;
+    width: 100%;
+    border-style: none;
+    padding: 13px 0px;
+    color: white;
+    height: 55px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.signinoptions {
+    margin: 12px 0px;
+    width: 100%;
+}
+
+hr {
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#button1:link {
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 34px;
+    border-radius: 2px;
+    margin-right: 5.5px;
+}
+
+#button1:visited {
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 34px;
+    border-radius: 2px;
+    margin-right: 5.5px;
+}
+
+#button1:hover {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color: white;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 34px;
+    border-radius: 2px;
+    margin-right: 5.5px;
+}
+
+#button1:active {
+    border: 1px solid #4285f4;
+    color: #4285f4;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 34px;
+    border-radius: 2px;
+    margin-right: 5.5px;
+}
+
+#button2:link {
+    border: 1px solid #212029;
+    color: #212029;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 16px;
+    border-radius: 2px;
+    margin-left: 6px;
+}
+
+#button2:visited {
+    border: 1px solid #212029;
+    color: #212029;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 16px;
+    border-radius: 2px;
+    margin-left: 6px;
+}
+
+#button2:hover {
+    border: 1px solid #212029;
+    color: #212029;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 16px;
+    border-radius: 2px;
+    margin-left: 6px;
+}
+
+#button2:hover {
+    border: 1px solid #212029;
+    background-color: #212029;
+    color: white;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 9.5px 16px;
+    border-radius: 2px;
+    margin-left: 6px;
+}
+
+.footer {
+    margin-top: 320px;
+    width: 100%;
+}
+
+ul {
+    position: relative;
+    padding-left: 25px;
+    margin-left: 0px;
+    list-style-type: none;
+}
+
+#l1 {
+    font-family: Inter-Medium,sans-serif;
+    font-size: 13px;
+    color: #212029;
+    opacity: .3;
+}
+
+a {
+    text-decoration: none;
+}
+
+#button3 {
+    position: absolute;
+    right: 38vh;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    color: #212029;
+}
+
+#button4 {
+    position: absolute;
+    right: 22vh;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    color: #212029;
+}
+
+#button5 {
+    position: absolute;
+    right: 6vh;
+    font-family: Inter-SemiBold,sans-serif;
+    font-size: 16px;
+    color: #212029;
+}
+
+li {
+    padding: 30px;
+    display: inline;
+}
